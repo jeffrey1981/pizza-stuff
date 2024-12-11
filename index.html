@@ -7,13 +7,21 @@
     <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <nav>
-    <section>
-      <div>Home</div>
-      <div>About</div>
-      <div>Products</div>
-    </section>
-    <div>Log Out</div>
+  <nav class="navbar">
+    <!-- Image(home) and About, Merch links -->
+    <div class="left-links">
+      <a href="#home" class="logo">
+        <img src="https://via.placeholder.com/50" alt="Logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#merch">Merch</a></li>
+      </ul>
+    </div>
+    <!-- Logout link -->
+    <div class="right-link">
+      <a href="#logout">Logout</a>
+    </div>
   </nav>
   <body>
     <!-- Section for Flexbox layout -->
@@ -39,3 +47,5 @@
     </section>
   </body>
 </html>
+
+
