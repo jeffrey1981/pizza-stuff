@@ -2,12 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   box-sizing: border-box;
-  height: 100vh; /* VH is Viewport Height minimum height of an element to be equal to the height of the viewport. */
+  height: 100vh; /* VH is 'Viewport Height' minimum height of an element to be equal to the height of the viewport. */
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 50px 1fr 50px;
 }
 
 a {
+  font-weight: bold;
   text-decoration: none;
   color: #333;
 }
@@ -32,7 +33,7 @@ a:hover {
 }
 
 .left-links .logo img {
-  max-height: 50px;
+  max-height: 70px;
   margin-right: 20px;
 }
 
