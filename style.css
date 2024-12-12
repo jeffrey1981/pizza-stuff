@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: rgb(31, 173, 238);
   margin: 0;
   box-sizing: border-box;
   height: 100vh; /* VH is 'Viewport Height' minimum height of an element to be equal to the height of the viewport. */
@@ -21,19 +22,20 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(236, 200, 20);
   padding: 10px 20px;
   background-color: #f8f9fa;
   border-bottom: 2px solid #ddd;
 }
 
 /* Left side: Logo and navigation links */
-.left-links {
+.nav-left {
   display: flex;
   align-items: center;
 }
 
-.left-links .logo img {
-  max-height: 70px;
+.nav-left .logo img {
+  max-height: 50px;
   margin-right: 20px;
 }
 
@@ -48,7 +50,7 @@ a:hover {
   margin-right: 20px;
 }
 
-.right-link {
+.nav-right {
   margin-left: auto;
 }
 
@@ -89,7 +91,7 @@ h2 {
   height: 100%;
 }
 
-/* Grid */
+/* Grid - Grid is confusing */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
