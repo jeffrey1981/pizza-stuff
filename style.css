@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Chewy", system-ui;
   background-color: rgb(31, 173, 238);
   margin: 0;
   box-sizing: border-box;
@@ -56,6 +56,16 @@ a:hover {
 
 /* The body outside of the navbar */
 /* Header Style */
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}  
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
