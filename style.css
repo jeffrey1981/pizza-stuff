@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-  color: #236123;
+  color: white;
 }
 
 .navbar {
@@ -42,6 +42,7 @@ a:hover {
 .nav-links {
   display: flex;
   list-style: none;
+  color:#bb5511;
   margin: 0;
   padding: 0;
 }
@@ -72,8 +73,8 @@ h2 {
 
 /* Box style */
 .box {
-  background-color: #236123;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
   padding: 20px;
   margin: 10px;
